@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility.Redis", "src\Utilit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tests", ".tests", "{4EBCF4DC-F12F-48F4-899D-84086C0D120A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.HostWeb", "tests\Test.HostWeb\Test.HostWeb.csproj", "{EF00B14F-EA4F-4F8C-9495-464FC6E9C093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.HostWeb", "tests\Test.HostWeb\Test.HostWeb.csproj", "{EF00B14F-EA4F-4F8C-9495-464FC6E9C093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Extensions.Redis", "Utility.Extensions.Redis\Utility.Extensions.Redis.csproj", "{1FABA65F-DFBC-4853-99B5-2ED3F8C06F5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{EF00B14F-EA4F-4F8C-9495-464FC6E9C093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF00B14F-EA4F-4F8C-9495-464FC6E9C093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF00B14F-EA4F-4F8C-9495-464FC6E9C093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FABA65F-DFBC-4853-99B5-2ED3F8C06F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FABA65F-DFBC-4853-99B5-2ED3F8C06F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FABA65F-DFBC-4853-99B5-2ED3F8C06F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FABA65F-DFBC-4853-99B5-2ED3F8C06F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
